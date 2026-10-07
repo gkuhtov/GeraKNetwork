@@ -6,16 +6,24 @@
 
 <br>
 
-```text
- ┌──────────────────────────────────────────────────────────────────┐
- │  🍎 iOS Profile   •   🤖 Android DoT   •   💻 Desktop Browsers   │
- └──────────────────────────────────────────────────────────────────┘
-```
+<p align="center">
+  <a href="http://xbox-dns.ru/ios/xbox-dns.mobileconfig">
+    <img src="https://img.shields.io/badge/iOS_Profile-MobileConfig-000000?style=for-the-badge&logo=apple&logoColor=white" alt="iOS Profile" />
+  </a>
+  <img src="https://img.shields.io/badge/Android-Private_DNS-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android DoT" />
+  <img src="https://img.shields.io/badge/Desktop-DoH_Secure-2563EB?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Desktop DoH" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Zero--Lag_Ping-Pass-success?style=flat-square" alt="Zero Lag" />
+  <img src="https://img.shields.io/badge/Encrypted-TLS_1.3-blueviolet?style=flat-square" alt="TLS" />
+  <img src="https://img.shields.io/badge/Direct_Route-No_VPN-orange?style=flat-square" alt="No VPN" />
+</p>
 
 <br>
 
-Легковесный способ восстановить прямой доступ к сервисам **Google Gemini** и инфраструктуре **Xbox**  
-без фоновых VPN-клиентов, перегрузки сетевых интерфейсов и потери игрового пинга.
+> Легковесный метод восстановить стабильный доступ к **Google Gemini** и сетевой инфраструктуре **Xbox**  
+> без фоновых VPN-клиентов, перегрузки сетевых интерфейсов и потери игрового пинга.
 
 <br>
 
@@ -23,15 +31,15 @@
 
 <br>
 
-### ⚡ Quick Endpoints
+### ⚡ Quick Endpoints Matrix
 
-| Направление | Тип | Адрес / Значение |
+| Тип подключения | Протокол | Параметр / Значение |
 | :--- | :---: | :--- |
-| **Browsers & Win 11** | `DoH` | `https://xbox-dns.ru/dns-query` |
+| **Браузеры / Windows 11** | `DoH` | `https://xbox-dns.ru/dns-query` |
 | **Android Private DNS** | `DoT` | `xbox-dns.ru` |
-| **Primary IPv4** | `DNS` | `111.88.96.50` |
-| **Secondary IPv4** | `DNS` | `111.88.96.51` |
-| **Apple Config** | `.mobileconfig` | [Скачать готовый профиль](http://xbox-dns.ru/ios/xbox-dns.mobileconfig) |
+| **Основной IPv4** | `DNS` | `111.88.96.50` |
+| **Дополнительный IPv4** | `DNS` | `111.88.96.51` |
+| **Готовый профиль Apple** | `.mobileconfig` | [📥 Скачать конфигурацию](http://xbox-dns.ru/ios/xbox-dns.mobileconfig) |
 
 <br>
 
@@ -41,37 +49,39 @@
 
 ## 📱 Mobile Platforms
 
-### 🍏 Apple iOS & iPadOS
-
 </div>
 
-> **Внимание:** загрузку необходимо выполнять строго через системный браузер **Safari**. Сторонние веб-клиенты не могут передать файл в менеджер профилей Apple.
-
-1. Откройте в Safari ссылку: [xbox-dns.mobileconfig](http://xbox-dns.ru/ios/xbox-dns.mobileconfig)
-2. Подтвердите системное диалоговое окно «Разрешить загрузку».
-3. Откройте **Настройки** системы — вверху появится баннер **«Профиль загружен»**.
-4. Нажмите **Установить** в верхнем правом углу и подтвердите действие код-паролем.
-
-<div align="center">
-
+<details open>
+<summary><h3>🍏 Apple iOS & iPadOS (Установка в 1 клик)</h3></summary>
 <br>
 
-### 🤖 Android OS (9.0+)
+> ⚠️ **Важно:** загружайте профиль строго через системный браузер **Safari**. Сторонние браузеры не могут передавать профили в систему iOS.
 
-</div>
+1. Откройте прямую ссылку в **Safari**: [xbox-dns.mobileconfig](http://xbox-dns.ru/ios/xbox-dns.mobileconfig)
+2. В появившемся окне нажмите **«Разрешить»**.
+3. Перейдите в **«Настройки»** iPhone/iPad — под вашим именем появится плашка **«Профиль загружен»**.
+4. Нажмите **«Установить»** в правом верхнем углу и подтвердите действие код-паролем.
 
-1. Откройте системные **Настройки** ➔ **Подключения** (или **Сеть и интернет**).
-2. Перейдите в раздел **«Другие настройки»** ➔ **«Частный DNS»** *(Private DNS)*.
-3. Отметьте пункт **«Имя хоста поставщика частного DNS»**.
-4. Пропишите хост:
+</details>
+
+<details>
+<summary><h3>🤖 Android OS (Версия 9.0+)</h3></summary>
+<br>
+
+1. Откройте системные **«Настройки»** ➔ **«Подключения»** (или **«Сеть и интернет»**).
+2. Перейдите в **«Другие настройки»** ➔ **«Частный DNS»** *(Private DNS)*.
+3. Переключите режим на **«Имя хоста поставщика частного DNS»**.
+4. Укажите адрес:
    ```text
    xbox-dns.ru
    ```
-5. Нажмите **Сохранить**.
+5. Нажмите кнопку **«Сохранить»**.
 
-<div align="center">
+</details>
 
 <br>
+
+<div align="center">
 
 ---
 
@@ -79,39 +89,15 @@
 
 ## 💻 Desktop Systems
 
-### 🌐 Браузерный режим (Chromium & Firefox)
-
 </div>
 
-> Метод направляет через DoH исключительно веб-трафик к Gemini. Все фоновые приложения, мессенджеры и игры работают напрямую на вашей стандартной скорости соединения.
-
-* **Chromium (Chrome, Яндекс.Браузер, Edge, Opera):**
-  1. **Настройки** ➔ **Конфиденциальность и безопасность** ➔ **Безопасность**.
-  2. Активируйте переключатель **«Использовать безопасный DNS-сервер»**.
-  3. Выберите пункт **«С другим поставщиком»** и введите URL:
-     ```text
-     [https://xbox-dns.ru/dns-query](https://xbox-dns.ru/dns-query)
-     ```
-
-* **Mozilla Firefox:**
-  1. **Настройки** ➔ **Приватность и защита** ➔ секция **«DNS через HTTPS»**.
-  2. Выберите режим **«Максимальная защита»**.
-  3. В списке поставщиков укажите вариант **«По выбору»** и вставьте URL:
-     ```text
-     [https://xbox-dns.ru/dns-query](https://xbox-dns.ru/dns-query)
-     ```
-
-<div align="center">
-
+<details open>
+<summary><h3>🌐 Изолированный режим в браузере (Chromium & Firefox)</h3></summary>
 <br>
 
-### 🪟 Windows 11 (Системный DoH)
+> 💡 **Идеальный вариант:** безопасный DNS включается только внутри браузера для Gemini, не трогая трафик игр, Discord и других программ.
 
-</div>
-
-1. Откройте **Параметры** (`Win + I`) ➔ **Сеть и Интернет** ➔ активное подключение (**Wi-Fi** или **Ethernet**).
-2. В строке **«Назначение DNS-сервера»** нажмите кнопку **«Изменить»**.
-3. Переключите селектор на **Вручную** и включите протокол **IPv4**:
-   * **Предпочтительный DNS:** `111.88.96.50`
-   * **Дополнительный DNS:** `111.88.96.51`
-4. В строке **«Шифрование DNS»** выберите **«Только шифрование (DNS через HTTPS)»** и задайте шаблон
+* **Chromium (Chrome, Яндекс.Браузер, Edge, Brave, Opera):**
+  1. Перейдите в **Настройки** ➔ **Конфиденциальность и безопасность** ➔ **Безопасность**.
+  2. Включите тумблер **«Использовать безопасный DNS-сервер»**.
+  3. Выберите вариант **«С другим поставщиком»** и вставьте
