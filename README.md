@@ -23,9 +23,17 @@
 
 <br>
 
-> ⚡ **Zero-Overhead Routing**  
-> Нативное восстановление доступа к веб-клиенту **Google Gemini** и сервисам **Xbox**  
-> без фоновых VPN-клиентов, перегрузки сетевых интерфейсов и потери игрового пинга.
+<table>
+  <tr>
+    <td align="center" width="850">
+      <br>
+      <h3>⚡ ZERO-OVERHEAD ROUTING</h3>
+      <p><b>Нативное восстановление доступа к веб-клиенту Google Gemini и сервисам Xbox</b><br>
+      без фоновых VPN-клиентов, перегрузки сетевых интерфейсов и потери игрового пинга.</p>
+      <br>
+    </td>
+  </tr>
+</table>
 
 <br>
 
@@ -49,11 +57,19 @@
 
 <br>
 
-## 📱 Мобильные платформы
+## 📱 МОБИЛЬНЫЕ ПЛАТФОРМЫ
 
 <br>
 
-### 🍏 Apple iOS и iPadOS
+<table>
+  <tr>
+    <td align="center" width="850">
+      <br>
+      <img src="https://img.shields.io/badge/APPLE_iOS_%26_iPadOS-Быстрая_установка_профиля-black?style=for-the-badge&logo=apple&logoColor=white" alt="iOS" />
+      <br><br>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -68,7 +84,15 @@
 
 <div align="center">
 
-### 🤖 Android OS (Версия 9.0 и новее)
+<table>
+  <tr>
+    <td align="center" width="850">
+      <br>
+      <img src="https://img.shields.io/badge/ANDROID_OS-Частный_DNS_(9.0%2B)-059669?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
+      <br><br>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -86,11 +110,19 @@
 
 <br>
 
-## 💻 Компьютеры и ноутбуки
+## 💻 КОМПЬЮТЕРЫ И НОУТБУКИ
 
 <br>
 
-### 🌐 Изолированный режим в браузере (Chrome / Firefox / Edge / Yandex)
+<table>
+  <tr>
+    <td align="center" width="850">
+      <br>
+      <img src="https://img.shields.io/badge/ВЕБ--БРАУЗЕРЫ-Изолированный_DoH_режим-D97706?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Browsers" />
+      <br><br>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -128,7 +160,15 @@
 
 <br>
 
-### 🪟 Системная настройка Windows
+<table>
+  <tr>
+    <td align="center" width="850">
+      <br>
+      <img src="https://img.shields.io/badge/WINDOWS_OS-Системная_конфигурация-2563EB?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
+      <br><br>
+    </td>
+  </tr>
+</table>
 
 <br>
 
