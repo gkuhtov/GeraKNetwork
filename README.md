@@ -110,7 +110,7 @@
   2. Выберите режим **«Максимальная защита»**.
   3. В списке поставщиков укажите вариант **«По выбору»** и вставьте URL:
      ```text
-     [https://xbox-dns.ru/dns-query](https://xbox-dns.ru/dns-query)
+    https://xbox-dns.ru/dns-query
      ```
 
 </details>
