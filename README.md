@@ -23,17 +23,10 @@
 
 <br>
 
-<table>
-  <tr>
-    <td align="center" width="850">
-      <br>
-      <h3>⚡ ZERO-OVERHEAD ROUTING</h3>
-      <p><b>Нативное восстановление доступа к веб-клиенту Google Gemini и сервисам Xbox</b><br>
-      без фоновых VPN-клиентов, перегрузки сетевых интерфейсов и потери игрового пинга.</p>
-      <br>
-    </td>
-  </tr>
-</table>
+### 💉 БЕЗ ТОРМОЗОВ И VPN-КОСТЫЛЕЙ
+
+**Чистый проброс маршрутов к Google Gemini и серверам Xbox.**  
+Никаких кривых фоновых клиентов, лишней нагрузки на систему и улетевшего в космос пинга.
 
 <br>
 
@@ -61,15 +54,9 @@
 
 <br>
 
-<table>
-  <tr>
-    <td align="center" width="850">
-      <br>
-      <img src="https://img.shields.io/badge/APPLE_iOS_%26_iPadOS-Быстрая_установка_профиля-black?style=for-the-badge&logo=apple&logoColor=white" alt="iOS" />
-      <br><br>
-    </td>
-  </tr>
-</table>
+<img src="https://img.shields.io/badge/APPLE_iOS_%26_iPadOS-Быстрая_установка_профиля-black?style=for-the-badge&logo=apple&logoColor=white" alt="iOS" />
+
+<br><br>
 
 </div>
 
@@ -84,15 +71,9 @@
 
 <div align="center">
 
-<table>
-  <tr>
-    <td align="center" width="850">
-      <br>
-      <img src="https://img.shields.io/badge/ANDROID_OS-Частный_DNS_(9.0%2B)-059669?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
-      <br><br>
-    </td>
-  </tr>
-</table>
+<img src="https://img.shields.io/badge/ANDROID_OS-Частный_DNS_(9.0%2B)-059669?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
+
+<br><br>
 
 </div>
 
@@ -114,15 +95,9 @@
 
 <br>
 
-<table>
-  <tr>
-    <td align="center" width="850">
-      <br>
-      <img src="https://img.shields.io/badge/ВЕБ--БРАУЗЕРЫ-Изолированный_DoH_режим-D97706?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Browsers" />
-      <br><br>
-    </td>
-  </tr>
-</table>
+<img src="https://img.shields.io/badge/ВЕБ--БРАУЗЕРЫ-Изолированный_DoH_режим-D97706?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Browsers" />
+
+<br><br>
 
 </div>
 
@@ -160,17 +135,9 @@
 
 <br>
 
-<table>
-  <tr>
-    <td align="center" width="850">
-      <br>
-      <img src="https://img.shields.io/badge/WINDOWS_OS-Системная_конфигурация-2563EB?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
-      <br><br>
-    </td>
-  </tr>
-</table>
+<img src="https://img.shields.io/badge/WINDOWS_OS-Системная_конфигурация-2563EB?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
 
-<br>
+<br><br>
 
 #### 🔹 Windows 11 (Системный DoH — рекомендуется)
 
