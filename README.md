@@ -8,16 +8,16 @@
 
 <p align="center">
   <a href="http://xbox-dns.ru/ios/xbox-dns.mobileconfig">
-    <img src="https://img.shields.io/badge/iOS_Profile-MobileConfig-000000?style=for-the-badge&logo=apple&logoColor=white" alt="iOS Profile" />
+    <img src="https://img.shields.io/badge/iOS_Профиль-MobileConfig-000000?style=for-the-badge&logo=apple&logoColor=white" alt="iOS Профиль" />
   </a>
-  <img src="https://img.shields.io/badge/Android-Private_DNS-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android DoT" />
-  <img src="https://img.shields.io/badge/Desktop-DoH_Secure-2563EB?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Desktop DoH" />
+  <img src="https://img.shields.io/badge/Android-Частный_DNS-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android DoT" />
+  <img src="https://img.shields.io/badge/ПК-Безопасный_DoH-2563EB?style=for-the-badge&logo=windows&logoColor=white" alt="ПК DoH" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Zero--Lag_Ping-Pass-success?style=flat-square" alt="Zero Lag" />
-  <img src="https://img.shields.io/badge/Encrypted-TLS_1.3-blueviolet?style=flat-square" alt="TLS" />
-  <img src="https://img.shields.io/badge/Direct_Route-No_VPN-orange?style=flat-square" alt="No VPN" />
+  <img src="https://img.shields.io/badge/Пинг-Без_задержек-success?style=flat-square" alt="Zero Lag" />
+  <img src="https://img.shields.io/badge/Шифрование-TLS_1.3-blueviolet?style=flat-square" alt="TLS" />
+  <img src="https://img.shields.io/badge/Маршрут-Без_VPN-orange?style=flat-square" alt="Без VPN" />
 </p>
 
 <br>
@@ -31,12 +31,12 @@
 
 <br>
 
-### ⚡ Quick Endpoints Matrix
+### ⚡ Быстрые параметры подключения
 
 | Тип подключения | Протокол | Параметр / Значение |
 | :--- | :---: | :--- |
 | **Браузеры / Windows 11** | `DoH` | `https://xbox-dns.ru/dns-query` |
-| **Android Private DNS** | `DoT` | `xbox-dns.ru` |
+| **Android (Частный DNS)** | `DoT` | `xbox-dns.ru` |
 | **Основной IPv4** | `DNS` | `111.88.96.50` |
 | **Дополнительный IPv4** | `DNS` | `111.88.96.51` |
 | **Готовый профиль Apple** | `.mobileconfig` | [📥 Скачать конфигурацию](http://xbox-dns.ru/ios/xbox-dns.mobileconfig) |
@@ -47,12 +47,12 @@
 
 <br>
 
-## 📱 Mobile Platforms
+## 📱 Мобильные платформы
 
 </div>
 
 <details open>
-<summary><h3>🍏 Apple iOS & iPadOS (Установка в 1 клик)</h3></summary>
+<summary><h3>🍏 Apple iOS и iPadOS (Установка в 1 клик)</h3></summary>
 <br>
 
 > ⚠️ **Важно:** загружайте профиль строго через системный браузер **Safari**. Сторонние браузеры не могут передавать профили в систему iOS.
@@ -65,7 +65,7 @@
 </details>
 
 <details>
-<summary><h3>🤖 Android OS (Версия 9.0+)</h3></summary>
+<summary><h3>🤖 Android (Версия 9.0 и новее)</h3></summary>
 <br>
 
 1. Откройте системные **«Настройки»** ➔ **«Подключения»** (или **«Сеть и интернет»**).
@@ -87,17 +87,17 @@
 
 <br>
 
-## 💻 Desktop Systems
+## 💻 Компьютеры и ноутбуки
 
 </div>
 
 <details open>
-<summary><h3>🌐 Изолированный режим в браузере (Chromium & Firefox)</h3></summary>
+<summary><h3>🌐 Изолированный режим в браузере (Chromium и Firefox)</h3></summary>
 <br>
 
 > 💡 **Идеальный вариант:** безопасный DNS включается только внутри браузера для Gemini, не трогая трафик игр, Discord и других программ.
 
-* **Chromium (Chrome, Яндекс.Браузер, Edge, Brave, Opera):**
+* **Chromium (Chrome, Яндекс Браузер, Edge, Brave, Opera):**
   1. Перейдите в **Настройки** ➔ **Конфиденциальность и безопасность** ➔ **Безопасность**.
   2. Включите тумблер **«Использовать безопасный DNS-сервер»**.
   3. Выберите вариант **«С другим поставщиком»** и вставьте URL:
@@ -116,7 +116,11 @@
 </details>
 
 <details>
-<summary><h3>🪟 Windows 11 (Системный DoH)</h3></summary>
+<summary><h3>🪟 Системная настройка Windows</h3></summary>
+<br>
+
+<details>
+<summary><b>🔹 Windows 11 (Системный DoH — рекомендуется)</b></summary>
 <br>
 
 1. Откройте **Параметры** (`Win + I`) ➔ **Сеть и Интернет** ➔ выберите активную сеть (**Wi-Fi** или **Ethernet**).
@@ -132,8 +136,10 @@
 
 </details>
 
+<br>
+
 <details>
-<summary><h3>🪟 Windows 10 (Классический IPv4)</h3></summary>
+<summary><b>🔹 Windows 10 (Классический IPv4)</b></summary>
 <br>
 
 1. Нажмите комбинацию `Win + R`, введите команду `ncpa.cpl` и нажмите **Enter**.
@@ -146,6 +152,8 @@
 
 </details>
 
+</details>
+
 <br>
 
 <div align="center">
@@ -154,12 +162,12 @@
 
 <br>
 
-## 🔍 Diagnostics & Healthcheck
+## 🔍 Проверка и диагностика
 
 </div>
 
-* **Проверка работы:** протестируйте соединение на официальной странице [xbox-dns.ru/test](https://xbox-dns.ru/test).
-* **Сброс системного кэша DNS (Windows):** если браузер сохраняет старый маршрут, выполните в терминале (PowerShell / CMD):
+* **Тест работоспособности:** проверьте подключение на официальной странице [xbox-dns.ru/test](https://xbox-dns.ru/test).
+* **Сброс системного кэша DNS (Windows):** если сохраняются старые маршруты, откройте терминал (PowerShell или CMD) и выполните:
   ```cmd
   ipconfig /flushdns
   ```
