@@ -8,7 +8,7 @@
 <br>
 
 <p align="center">
-  <a href="http://xbox-dns.ru/ios/xbox-dns.mobileconfig">
+  <a href="https://xbox-dns.ru/ios/xbox-dns.mobileconfig">
     <img src="https://img.shields.io/badge/iOS-MobileConfig-000000?style=for-the-badge&logo=apple&logoColor=white" alt="iOS Profile" />
   </a>
   <img src="https://img.shields.io/badge/Android-Private_DNS-059669?style=for-the-badge&logo=android&logoColor=white" alt="Android DoT" />
@@ -17,17 +17,16 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PING-0ms_Loss-10B981?style=flat-square" alt="Zero Lag" />
   <img src="https://img.shields.io/badge/CIPHER-TLS_1.3-6366F1?style=flat-square" alt="TLS" />
   <img src="https://img.shields.io/badge/ROUTE-Direct_No_VPN-EC4899?style=flat-square" alt="No VPN" />
 </p>
 
 <br>
 
-### 💉 БЕЗ ТОРМОЗОВ И VPN-КОСТЫЛЕЙ
+### 🔐 НАСТРОЙКА DNS БЕЗ ЛИШНИХ КЛИЕНТОВ
 
-**Чистый проброс маршрутов к Google Gemini и серверам Xbox.**  
-Никаких кривых фоновых клиентов, лишней нагрузки на систему и улетевшего в космос пинга.
+**Настройка DNS для разрешения доменных имён сервисов, к которым нужен доступ.**  
+Фактическая доступность, задержка и совместимость зависят от сети, устройства и используемого DNS-сервера.
 
 <br>
 
@@ -43,7 +42,7 @@
 | **Android (Частный DNS)** | `DoT` | `xbox-dns.ru` |
 | **Основной шлюз (IPv4)** | `DNS` | `111.88.96.50` |
 | **Резервный шлюз (IPv4)** | `DNS` | `111.88.96.51` |
-| **Готовый профиль Apple** | `.mobileconfig` | [📥 Скачать конфигурацию](http://xbox-dns.ru/ios/xbox-dns.mobileconfig) |
+| **Готовый профиль Apple** | `.mobileconfig` | [📥 Скачать конфигурацию](https://xbox-dns.ru/ios/xbox-dns.mobileconfig) |
 
 <br>
 
@@ -63,7 +62,7 @@
 
 > ⚠️ **Важно:** выполняйте загрузку строго через встроенный браузер **Safari** — WebKit передает файл напрямую в системный менеджер профилей Apple.
 
-* 🚀 **Загрузка:** Откройте в Safari ссылку: [xbox-dns.mobileconfig](http://xbox-dns.ru/ios/xbox-dns.mobileconfig)
+* 🚀 **Загрузка:** Откройте в Safari ссылку: [xbox-dns.mobileconfig](https://xbox-dns.ru/ios/xbox-dns.mobileconfig)
 * 📥 **Системный запрос:** Во всплывающем окне подтвердите загрузку кнопкой **«Разрешить»**
 * ⚙️ **Профиль:** Откройте системные **«Настройки»** — сверху появится баннер **«Профиль загружен»**
 * 🛡️ **Финиш:** Нажмите **«Установить»** в правом верхнем углу и введите код-пароль
