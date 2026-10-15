@@ -1,8 +1,8 @@
 <div align="center">
 
-# ⛩️ GeraK DNS Bypass
+# ⛩️ GeraKNetwork — защищённый DNS
 
-### Direct DoH / DoT Tunneling • Google Gemini & Xbox Network
+### Настройка DoH и DoT для доступа к сервисам Google Gemini и сети Xbox
 
 <br>
 
@@ -197,3 +197,12 @@
 <sub><b>GeraK Network</b> • Clean Routing & Minimalist Architecture</sub>
 
 </div>
+
+
+---
+
+## 👤 Авторство
+
+**Гера Кухтов / madebygood** · [GitHub](https://github.com/gkuhtov)
+
+<sub>Экосистема GeraK · Документация на русском языке</sub>
